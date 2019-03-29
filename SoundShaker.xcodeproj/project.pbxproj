@@ -12,6 +12,8 @@
 		A7E13EA0224D951E0052B60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E13E9E224D951E0052B60E /* Main.storyboard */; };
 		A7E13EA2224D95200052B60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E13EA1224D95200052B60E /* Assets.xcassets */; };
 		A7E13EA5224D95200052B60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E13EA3224D95200052B60E /* LaunchScreen.storyboard */; };
+		A7E13EB1224D96F90052B60E /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7E13EAF224D96F90052B60E /* alert.mp3 */; };
+		A7E13EB2224D96F90052B60E /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7E13EB0224D96F90052B60E /* doorbell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A7E13EA1224D95200052B60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E13EA4224D95200052B60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7E13EA6224D95200052B60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E13EAF224D96F90052B60E /* alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alert.mp3; sourceTree = "<group>"; };
+		A7E13EB0224D96F90052B60E /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,22 @@
 				A7E13E9A224D951E0052B60E /* AppDelegate.swift */,
 				A7E13E9C224D951E0052B60E /* ViewController.swift */,
 				A7E13E9E224D951E0052B60E /* Main.storyboard */,
+				A7E13EAE224D96F90052B60E /* sound */,
 				A7E13EA1224D95200052B60E /* Assets.xcassets */,
 				A7E13EA3224D95200052B60E /* LaunchScreen.storyboard */,
 				A7E13EA6224D95200052B60E /* Info.plist */,
 			);
 			path = SoundShaker;
+			sourceTree = "<group>";
+		};
+		A7E13EAE224D96F90052B60E /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A7E13EAF224D96F90052B60E /* alert.mp3 */,
+				A7E13EB0224D96F90052B60E /* doorbell.mp3 */,
+			);
+			name = sound;
+			path = ../../../../Downloads/sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E13EB2224D96F90052B60E /* doorbell.mp3 in Resources */,
 				A7E13EA5224D95200052B60E /* LaunchScreen.storyboard in Resources */,
 				A7E13EA2224D95200052B60E /* Assets.xcassets in Resources */,
 				A7E13EA0224D951E0052B60E /* Main.storyboard in Resources */,
+				A7E13EB1224D96F90052B60E /* alert.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
